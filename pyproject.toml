@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ytune"
+version = "0.1.0"
+description = "A terminal YouTube Music player for Linux, inspired by rmpc"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "ytune contributors"},
+]
+
+dependencies = [
+    "textual>=2.0.0",
+    "ytmusicapi>=1.0.0",
+    "python-mpv>=1.0.0",
+    "yt-dlp>=2024.0.0",
+    "Pillow>=10.0.0",
+    "playwright>=1.40.0",
+]
+
+[project.scripts]
+ytune = "ytune.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ytune*"]

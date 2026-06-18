@@ -1,0 +1,167 @@
+/* ytune — main application styles */
+/* Dark theme inspired by YouTube Music with purple/violet accents */
+
+Screen {
+    background: #0a0a1a;
+    color: #e2e8f0;
+}
+
+/* ── Header ── */
+Header {
+    background: #0f0a2e;
+    color: #c4b5fd;
+    dock: top;
+    height: 1;
+}
+
+HeaderTitle {
+    color: #e879f9;
+    text-style: bold;
+}
+
+/* ── Footer ── */
+Footer {
+    background: #0f0a2e;
+    color: #94a3b8;
+}
+
+FooterKey {
+    background: #1e1b4b;
+    color: #a78bfa;
+}
+
+/* ── Tabs ── */
+TabbedContent {
+    height: 1fr;
+}
+
+Tabs {
+    background: #0f0a2e;
+    dock: top;
+    height: 3;
+}
+
+Tab {
+    background: #1e1b4b;
+    color: #a78bfa;
+    padding: 0 2;
+    margin: 0 0;
+}
+
+Tab:hover {
+    background: #312e81;
+    color: #c4b5fd;
+}
+
+Tab.-active {
+    background: #4c1d95;
+    color: #f5f3ff;
+    text-style: bold;
+}
+
+Underline {
+    color: #a855f7;
+}
+
+/* ── Main layout ── */
+#main-container {
+    height: 1fr;
+    width: 1fr;
+}
+
+#sidebar {
+    width: 28;
+    dock: left;
+    background: #0d0b1e;
+    border-right: solid #1e1b4b;
+    padding: 0;
+}
+
+#content-area {
+    height: 1fr;
+    width: 1fr;
+}
+
+/* ── Album Art ── */
+AlbumArt {
+    width: 100%;
+    height: 100%;
+    content-align: center middle;
+    padding: 1;
+    background: #0d0b1e;
+}
+
+/* ── Now Playing Bar ── */
+NowPlaying {
+    height: 4;
+    dock: bottom;
+    background: #0f0a2e;
+    border-top: solid #2e1065;
+    padding: 0 1;
+}
+
+/* ── DataTable (tracks) ── */
+DataTable {
+    background: #0a0a1a;
+    height: 1fr;
+}
+
+DataTable > .datatable--header {
+    background: #1e1b4b;
+    color: #a78bfa;
+    text-style: bold;
+}
+
+DataTable > .datatable--cursor {
+    background: #4c1d95;
+    color: #f5f3ff;
+}
+
+DataTable > .datatable--hover {
+    background: #1e1b4b 40%;
+}
+
+DataTable > .datatable--odd-row {
+    background: #0d0b1e;
+}
+
+/* ── Input ── */
+Input {
+    border: round #6d28d9;
+    background: #0f0a1e;
+    color: #e2e8f0;
+    padding: 0 1;
+}
+
+Input:focus {
+    border: round #a855f7;
+}
+
+/* ── Tree ── */
+Tree {
+    background: #0a0a1a;
+    padding: 1;
+}
+
+Tree > .tree--cursor {
+    background: #4c1d95;
+    color: #f5f3ff;
+}
+
+Tree > .tree--guides {
+    color: #312e81;
+}
+
+Tree > .tree--guides-hover {
+    color: #6d28d9;
+}
+
+/* ── Scrollbar ── */
+Scrollbar {
+    background: #0a0a1a;
+    color: #312e81;
+}
+
+Scrollbar:hover {
+    color: #4c1d95;
+}
