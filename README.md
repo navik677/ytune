@@ -47,9 +47,9 @@
   ├────────────────────────────────────────────────────────┤
   │  ■ Play [0:14 / 3:32]  Vol: 75%  🔀 Shuffle  🔁 Repeat │
   └────────────────────────────────────────────────────────┘
-<img width="2880" height="1748" alt="image" src="https://github.com/user-attachments/assets/b56db068-3eaf-4f77-b1fc-ea8bb81e1602" />
 
 ```
+<img width="2880" height="1748" alt="image" src="https://github.com/user-attachments/assets/72435307-d5eb-4a65-9bca-6ed3b096ddd6" />
 
 ---
 
